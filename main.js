@@ -189,6 +189,20 @@ window.addEventListener(
     }
   }, 300)
 );
+/*
+
+헤더 네비게이션 클릭 시 해당 위치로 이동 
+
+*/
+headerTab1.addEventListener("click", () => {
+  gsap.to(window, 0.6, { scrollTo: 0 });
+});
+headerTab2.addEventListener("click", () => {
+  gsap.to(window, 0.6, { scrollTo: 4073 });
+});
+headerTab3.addEventListener("click", () => {
+  gsap.to(window, 0.6, { scrollTo: 5780 });
+});
 
 /*
 
