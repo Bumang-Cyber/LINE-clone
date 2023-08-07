@@ -686,6 +686,7 @@ SERVICE
   margin-right: 10px;
 }
 .btn-category {
+  cursor: pointer;
   margin-left: 40px;
   width: 104px;
   height: 36px;
